@@ -1,5 +1,5 @@
 
-# README: Monte Carlo Simulations for PD Forecasting
+# README: Monte Carlo Simulations for senario weights
 
 
 ![alt text](image.png)
@@ -9,7 +9,7 @@
 This Python script simulates the **Probability of Default (PD)** using **Monte Carlo simulations** based on **Beta distribution**. The user inputs **best, base, and worst-case PDs**, and the script calculates the most likely PD range through simulations. The Beta distribution parameters (alpha and beta) are estimated dynamically, and the simulation results are visualized using a plot.
 
 ### Key Features:
-- **Monte Carlo Simulations** for PD forecasting
+- **Monte Carlo Simulations** for senario weights
 - **Beta distribution fitting** using user inputs for best, base, and worst-case PDs
 - **Estimation of Beta distribution parameters (alpha and beta)** based on the given PD values
 - **Visualization of simulation results** in a distribution plot
