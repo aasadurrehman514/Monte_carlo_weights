@@ -28,7 +28,7 @@ def plot_dist(results):
         return list(patches) + [title] 
 
     ani = animation.FuncAnimation(fig, update, frames=np.arange(1, len(values) + 1),
-                                  repeat=False, interval=1, blit=False) 
+                                  repeat=False, interval=1, blit=False)  # Use blit=False for compatibility
 
     # ani.save('simulation_animation.html', writer='html', fps=30)
     # ani.save('Monte_carlo_practice.gif', writer='imagemagick', fps=1)
@@ -37,3 +37,27 @@ def plot_dist(results):
 
 
 
+
+
+
+    # # Use a style for a prettier plot
+    # print(plt.style.available)
+    # plt.style.use('dark_background')  # Choose from styles like 'ggplot', 'seaborn', etc.
+
+    # # Plot the histogram with automatic bins and transparency
+    # plt.hist(values, bins='auto', color='#1f77b4', edgecolor='black', alpha=0.7)
+
+    # # Add labels and title with enhanced styling
+    # plt.xlabel('Value', fontsize=14, fontweight='bold', color='darkblue')
+    # plt.ylabel('Frequency', fontsize=14, fontweight='bold', color='darkblue')
+    # plt.title('Histogram of Dictionary Values', fontsize=16, fontweight='bold', color='darkblue')
+
+    # # Add gridlines for easier readability
+    # plt.grid(True, linestyle='--', alpha=0.5)
+
+    # # Show the plot
+    # plt.show()
+
+
+    # # Show the plot
+    # plt.show()
