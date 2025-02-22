@@ -31,7 +31,7 @@ def plot_dist(results):
                                   repeat=False, interval=1, blit=False)  # Use blit=False for compatibility
 
     # ani.save('simulation_animation.html', writer='html', fps=30)
-    # ani.save('Monte_carlo_practice.gif', writer='imagemagick', fps=1)
+    # ani.save('Monte_carlo_practice.gif', writer='imagemagick', fps=30)
     plt.show()
 
 
