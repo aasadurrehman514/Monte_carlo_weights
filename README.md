@@ -46,7 +46,7 @@ This Python script simulates the **Probability of Default (PD)** using **Monte C
 Run the script from the command line with optional parameters:
 
 ```bash
-python pd_simulation.py --pd_best 0.0023397 --pd_base 0.01013717 --pd_worst 0.0348274 --guess_alpha 2.0 --guess_beta 2.0 --number_of_simulations 10000
+python main.py --pd_best 0.0023397 --pd_base 0.01013717 --pd_worst 0.0348274 --guess_alpha 2.0 --guess_beta 2.0 --number_of_simulations 10000
 ```
 
 ### Arguments:
