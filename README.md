@@ -68,7 +68,7 @@ To simulate PD forecasts with the following settings:
 Run:
 
 ```bash
-python pd_simulation.py --pd_best 0.0023397 --pd_base 0.01013717 --pd_worst 0.0348274 --number_of_simulations 10000
+python main.py --pd_best 0.0023397 --pd_base 0.01013717 --pd_worst 0.0348274 --number_of_simulations 10000
 ```
 
 This will estimate the Beta distribution parameters, run the simulations, and generate a plot of the resulting PD distribution.
